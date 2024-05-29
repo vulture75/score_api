@@ -1,0 +1,29 @@
+.idea/
+.vscode/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore development-related files and directories
+.env
+venv/
+*.log
+
+# Ignore Docker-related files and directories
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore any sensitive or secret files (adjust this list as needed)
+secrets/
+
+# Ignore any build artifacts or generated files
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.egg-info/
+dist/
+build/
+*.egg

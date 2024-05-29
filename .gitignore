@@ -1,0 +1,54 @@
+.idea/
+.vscode/
+
+tmp/
+
+package/
+pretrained_models/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore development-related files and directories
+.env
+venv/
+*.log
+
+# Ignore any sensitive or secret files (adjust this list as needed)
+secrets/
+
+# Ignore any build artifacts or generated files
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore IDE-specific files (adjust this list based on your IDE)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore local development configuration files (uncomment if needed)
+# .env.local
+# .env.dev
+
+# Ignore any OS-specific files
+*.DS_Store
+Thumbs.db
+
+models/
+result/
+
+*.txt
+*.json
+*.csv
+*.pkl
+*.h5
+*.npy
+*.npz
